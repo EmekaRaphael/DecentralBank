@@ -39,3 +39,4 @@ async function update() {
   const currentAmount = await dbank_backend.checkBalance();
   document.getElementById("value").innerText = Math.round(currentAmount * 100) / 100;
 };
+
